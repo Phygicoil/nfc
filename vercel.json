@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/nfc/mint", "destination": "/" },
+    { "source": "/nfc/scan", "destination": "/" },
+    { "source": "/nfc/(.*)", "destination": "/" }
+  ],
+  "cleanUrls": true
+}
